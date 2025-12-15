@@ -1,12 +1,14 @@
-
-import './App.css'
+import { FollowMouse } from "./components/FollowMouse";
+import "./App.css";
+import { useState } from "react";
 
 function App() {
-
-
-  return (
-    <h3>Proyecto 3</h3>
-  )
+ return(
+    <main>
+   <FollowMouse/>
+    
+    </main>
+  );
 }
 
-export default App
+export default App;
